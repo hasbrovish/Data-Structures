@@ -43,6 +43,9 @@ Output
 5
 0
 */
+/*
+    for Largest Subarray with sum K see changes in comment of the code
+*/
 
 #include <iostream>
 #include <unordered_map>
@@ -70,8 +73,8 @@ int main() {
         m.insert({0,-1}); //logicaly think will able to figure out why
         Loop(n){
             psum += a[i];
-            if(m.find(psum)!=m.end()){
-                len = max(len , i - m[psum]);
+            if(m.find(psum)!=m.end()){ //psum-k
+                len = max(len , i - m[psum]); //psum-k
             } 
             else
                 m[psum] = i;
