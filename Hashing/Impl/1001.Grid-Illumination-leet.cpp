@@ -4,26 +4,28 @@ https://leetcode.com/problems/grid-illumination/description/
 
 /*
 Mistake done :
-1.making of grid every time was an costly operation 
-2.tracking the jd bulbs which was not reuired to b done 
-3. also in case if the lamp is repeatie then insert that lamp on inly once in the array 
-4.use set or map for to maintain unqiie lamps 
-5. see keys are ot reuired to be maintained for the lamp so we can go for sing set her
-crux :
-see eventually blb will glw only if it is lighten by some lamp 
-so while checking the adj 9 blubs if any lamp is alredy turned on
-then need to focus to turn off that bulb and decrasing the count and
- removing from the lamp on array 
-
-
-
-
+1. making of grid every time was an costly operation
+2. tracking the jd bulbs
+which was not reuired to b done 
+3. also in case if the lamp is repeatie then insert that lamp on inly once in
+   the array
+4. use set or map for to maintain unqiie lamps 
+5. see keys are ot reuired to be maintained for the lamp so we can go for sing
+   set her
+6. When i was using array to store frequencies of row , col and diagonal memory
+   limite excced was coming , as 0<n<10^9 and contraint to be fi in array was N
+   ~ 10^9 which cann't be accomodate in array hence required to use
+   unordered_map crux : see eventually blb will glw only if it is lighten by
+   some lamp so while checking the adj 9 blubs if any lamp is alredy turned on
+   then need to focus to turn off that bulb and decrasing the count and removing
+   from the lamp on array 
 */
 #include<iostream>
 #include<vector>
 #include<unordered_map>
 #include<utility>
 #include<map>
+#include<set>
 using namespace std;
 
 class Solution {
