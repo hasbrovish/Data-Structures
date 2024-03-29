@@ -58,6 +58,12 @@ Output
 1 1 1
 1 0 0
 */
+/*
+the code was giving WA on all testcase ,
+ then in intialised rowArr and colArr to fix the problem
+
+*/
+
 #include <iostream>
 #include<vector>
 using namespace std;
