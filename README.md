@@ -2,6 +2,8 @@
 This repository is for My interview preparation.
 
 ### [Data Structure and Algo template](https://docs.google.com/document/d/11-Mk2dfSCWLD5QCkI2QEkpBF9RJF-ig8UN1csO_N5kM/edit)
+### [DSA Patterns](https://olivine-asparagus-094.notion.site/fac9ac6bb49b4476b3c7ca86e2d33a42?v=4768301ce1da487bba785b2ccd054f30)
+### [Tech interview Tracker](https://docs.google.com/spreadsheets/d/1FKCkeRpDGqATrw7QkLUjae8QNDMCrDPN0cXumZMxuBA/edit#gid=1358363002)
 ## Programming Pathshala Course 
 1. Begin With Programming
 2. Gearing Up
