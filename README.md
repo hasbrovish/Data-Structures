@@ -20,7 +20,7 @@ This repository is for My interview preparation.
 
 5. Fundamental Data Structures
     * [Hashing](https://github.com/hasbrovish/Data-Structures/tree/main/PPCourse/Hashing)
-    * [Stacks](https://github.com/hasbrovish/Data-Structures?tab=readme-ov-file#stacks)
+    * [Stacks](#stacks)
     * Queues
     * Linklist
     * Binary Trees
