@@ -39,4 +39,15 @@ This repository is for My interview preparation.
 13. High Level Design
 
 
+## Stacks
+---
+1. What is stack 
+2. Two stack in a same array 
+3. Push Bottom in a Stack 
+4. Reverse a stack 
+5. Next greater element
+6. Largest Area Rectangle
+7. Binary Matrix-1 
+8. BInary Matrix-2 
+
 
